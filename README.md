@@ -39,3 +39,49 @@ This stage involves extracting relevant fields like title, explanation, url, and
 3. Load (L):
 The transformed data is loaded into a Postgres table using PostgresHook.
 If the target table doesn’t exist in the Postgres database, it is created automatically as part of the DAG using a create table task.
+
+
+Here's the **"▶️ How to Run the Project"** section in clean `README.md` format, ready to be copy-pasted:
+
+---
+
+## ▶️ How to Run the Project
+
+Follow these steps to set up and run the ETL pipeline using Apache Airflow and Docker:
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/airflow-nasa-etl.git
+cd airflow-nasa-etl
+```
+
+### 2️⃣ Create & Activate Virtual Environment (Optional but Recommended)
+
+```bash
+conda activate venv/              
+```
+
+### 3️⃣ Install Python Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Start Airflow Services (Docker)
+
+```bash
+astro dev start
+```
+
+
+### 6️⃣ Stop Services
+
+When you're done, shut down all running containers:
+
+```bash
+astro dev stop
+```
+
+
+
