@@ -41,11 +41,8 @@ The transformed data is loaded into a Postgres table using PostgresHook.
 If the target table doesn’t exist in the Postgres database, it is created automatically as part of the DAG using a create table task.
 
 
-Here's the **"▶️ How to Run the Project"** section in clean `README.md` format, ready to be copy-pasted:
 
----
-
-## ▶️ How to Run the Project
+### ▶️ How to Run the Project
 
 Follow these steps to set up and run the ETL pipeline using Apache Airflow and Docker:
 
